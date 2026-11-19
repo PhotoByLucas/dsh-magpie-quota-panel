@@ -4,6 +4,10 @@
 
 View Magpie account quotas, balances, and reset times from a DeepSeek Harness (DSH) Web conversation. A status row below the composer opens the per-account panel. The panel works whether or not the current conversation uses a model routed through Magpie.
 
+![Example quota panel with separate account windows and a two-account status preview](docs/quota-panel-example.svg)
+
+*Illustration with synthetic account and quota data.*
+
 ## Data coverage
 
 The panel reads Magpie's `GET /v1/magpie/quotas` endpoint. It does not maintain a provider or plan allowlist. When a new account and its quota windows appear in the response, they are available in the panel without additional DSH plugin configuration. Available windows, units, and reset times depend on Magpie and the upstream provider. **Model access does not imply quota access.**
