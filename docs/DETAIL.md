@@ -1,0 +1,1 @@
+See remaining Magpie quota by account below the composer. Open the panel to see Codex's separate 5-hour and weekly windows, WorkBuddy credits, and any other quota windows reported by Magpie. Unknown readings are shown as unavailable, and different quota units are not combined.

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Magpie quota",
+    "description": "Shows a magpie quota reading in the composer's status row: the battery glyph and the number beside it both express the usable share of all account quota (the sum of remaining quota across non-expired accounts divided by the sum of their limits). Clicking the reading opens a native-style call-out panel where each account shows just two rows: its total quota (used/limit amount and remaining percent) and one model usage limit (omitted when absent). Read from the local magpie gateway through the Host; nothing is sent elsewhere. Turning the plugin off removes the reading and its panel.",
+    "detail": "docs/DETAIL.md"
+  }
+}

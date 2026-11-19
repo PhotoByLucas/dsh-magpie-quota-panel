@@ -1,0 +1,8 @@
+- insert:
+    - id: magpie-quota
+      name: '@local/magpie-quota'
+      config:
+        # magpie's local gateway (same endpoint the Magpie LLM provider uses).
+        baseUrl: http://127.0.0.1:3425
+        # Bounds the server-side read of /v1/magpie/quotas.
+        timeoutMs: 8000

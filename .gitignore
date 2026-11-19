@@ -1,0 +1,7 @@
+# https://github.com/Canvai1337/dsh-magpie-quota
+node_modules/
+dist/
+*.tgz
+*.zip
+*.log
+.DS_Store
